@@ -15,7 +15,6 @@ body a {
 
 .gov-topo {
     position:relative;
-    z-index: 1000;
     background-color: #fff;
 }
 
@@ -113,6 +112,125 @@ img {
 
 .nav-main {
     background-color: #fff;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #d3d3d3;
     border-radius: 4px;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos-nav {
+    display: flex;
+    padding: 21px;
+    padding: 21px;
+    margin-top: 7px;
+}
+
+.logo-etec {
+    display: flex;
+    margin-left: 385px;
+}
+
+.img-etec {
+    width: 98.45px;
+    height: 40px;
+}
+
+.logo-cps {
+    display: flex;
+    margin-left: 6px;
+}
+
+.img-cps {
+    width: 60.774px;
+    height: 40px;
+}
+
+.group-every-nav {
+    display: flex;
+    padding: 4px;
+    padding: 4px;
+    margin-top: 7px;
+}
+
+.ul-nav {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    list-style: none;
+}
+
+a {
+    display: relative;
+    color: #777;
+    text-shadow: 1px 0 #fff;    
+    float: left
+}
+
+.group-home {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.group-calendario {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.group-duvidas {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.group-fale {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.container-area-candidato {
+    display: flex;
+    margin-top: 7px;
+    height: 25px;
+    width: 135px;
+    margin-left: 167px;
+    background: linear-gradient(180deg, #ca001a,#7d0010);
+    border-radius: 4px;
+}
+
+.text-area-candidato {
+    display: flex;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.fat {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.text-fat {
+    display: flex;
+    margin-left: 40px;
+    font-size: 9px;
+}
+
+.img-fat {
+    display: flex;
+    width: 80px;
+    height: 26px;
+    margin-left: 40px;
+    margin-top: -13px;
+    margin-bottom: 5px;
 }
