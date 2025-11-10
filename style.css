@@ -1,0 +1,82 @@
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Montserrat', verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.gov-topo {
+    position:relative;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.container-gov-topo {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    justify-content: flex-end;
+    height: 80px;
+    border: none;
+}
+
+.img-link {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.img-link a:hover {
+    cursor:pointer;
+}
+
+.gov-topo-fundo-img-sp {
+    position:absolute;
+    background: black;
+    width: 305px;
+    height: 80px;
+    top:0;
+    left:0;
+    padding: 22px 0 20px 20px;
+    border-radius: 0 50px 50px 0;   
+    display: flex;
+    align-items: center;
+}
+
+.gov-topo-img-sp {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    transition: transform 0.5 ease;
+}
+
+.gov-topo-img-sp :hover {
+    transform: translateY(0.5px);
+}
+
+.logo-sp {
+    height: 38px;
+    width: 206px;
+}
+
+.gov-logo-social {
+    margin-left: 4px;
+}
+
+img {
+    vertical-align: middle;
+    width: 26px;
+    height: 25px;
+}
+
+.logo-social {
+    border-style: none;
+}
