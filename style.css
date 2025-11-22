@@ -1,73 +1,71 @@
 body {
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-color: #212529;
-text-align: left;
-font-family: 'Montserrat', verdana, sans-serif;
-margin: 0;
-padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Montserrat', verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .gov-topo {
-position:relative;
-z-index: 1000;
-background-color: #fff;
+    position:relative;
+    background-color: #fff;
 }
 
 .container-gov-topo {
-display: flex;
-max-width: 100%;
-position: relative;
-justify-content: flex-end;
-height: 80px;
-border: none;
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    justify-content: flex-end;
+    height: 80px;
+    border: none;
 }
 
 .img-link {
-font-size: 20px;
-font-weight: 700;
-text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
 }
 
 .img-link a:hover {
-cursor:pointer;
+    cursor:pointer;
 }
 
 .gov-topo-fundo-img-sp {
-position:absolute;
-background: black;
-width: 305px;
-height: 80px;
-top:0;
-left:0;
-padding: 22px 0 20px 20px;
-border-radius: 0 50px 50px 0;   
-display: flex;
-align-items: center;
+    position:absolute;
+    background: black;
+    width: 305px;
+    height: 80px;
+    top:0;
+    left:0;
+    padding: 22px 0 20px 20px;
+    border-radius: 0 50px 50px 0;   
+    display: flex;
+    align-items: center;
 }
 
 .gov-topo-img-sp {
-display: flex;
-align-items: center;
-margin-left: 40px;
-transition: transform 0.5 ease;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    transition: transform 0.5 ease;
 }
 
 .gov-topo-img-sp :hover {
-transform: translateY(0.5px);
+    transform: translateY(0.5px);
 }
 
 .logo-sp {
-height: 38px;
-width: 206px;
+    height: 38px;
+    width: 206px;
 }
 
-.gov-logo-social {
 .gov-nav {
     display: flex;
     align-items: center;
@@ -75,17 +73,17 @@ width: 206px;
 }
 
 .gov-i-social {
-margin-left: 4px;
+    margin-left: 4px;
 }
 
 img {
-vertical-align: middle;
-width: 26px;
-height: 25px;
+    vertical-align: middle;
+    width: 26px;
+    height: 25px;
 }
 
 .logo-social {
-border-style: none;
+    border-style: none;
 }
 
 .text-social {
@@ -114,6 +112,156 @@ border-style: none;
 
 .nav-main {
     background-color: #fff;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #d3d3d3;
     border-radius: 4px;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos-nav {
+    display: flex;
+    padding: 21px;
+    padding: 21px;
+    margin-top: 7px;
+}
+
+.logo-etec {
+    display: flex;
+    margin-left: 385px;
+}
+
+.img-etec {
+    width: 98.45px;
+    height: 40px;
+}
+
+.logo-cps {
+    display: flex;
+    margin-left: 6px;
+}
+
+.img-cps {
+    width: 60.774px;
+    height: 40px;
+}
+
+.group-every-nav {
+    display: flex;
+    padding: 4px;
+    padding: 4px;
+    margin-top: 7px;
+}
+
+.ul-nav {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    list-style: none;
+}
+
+a {
+    display: relative;
+    color: #777;
+    text-shadow: 1px 0 #fff;    
+    float: left
+}
+
+.group-home {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.group-calendario {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.group-duvidas {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.group-fale {
+    display: flex;
+    font-size: 13.5px;
+    margin-right: 14px;
+}
+
+.container-area-candidato {
+    display: flex;
+    margin-top: 7px;
+    height: 25px;
+    width: 135px;
+    margin-left: 167px;
+    background: linear-gradient(180deg, #ca001a,#7d0010);
+    border-radius: 4px;
+}
+
+.container-area-candidato :hover {
+    background: #7d0010;
+}
+
+.text-area-candidato {
+    display: flex;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.fat {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.text-fat {
+    display: flex;
+    margin-left: 40px;
+    font-size: 9px;
+}
+
+.img-fat {
+    display: flex;
+    width: 80px;
+    height: 26px;
+    margin-left: 40px;
+    margin-top: -13px;
+    margin-bottom: 5px;
+}
+
+.container-1-vestibulinho {
+    display: flex;
+    height: 310px;
+    width: 300px;
+    background-color: #551B29;
+    margin-left: -10px;
+}
+
+.img-vestibulinho {
+    display: flex;
+    height: 310px;
+    background-image: url(./Vestibulinho/vestibulinho.jpg);
+    background-repeat: no-repeat;
+   background-position: 50% 0;
+   margin-top: -310px;
+   max-width: 100%;
+}
+
+.container-2-vestibulinho {
+    display: flex;
+    height: 310px;
+    width: 300px;
+    background-color: #551B29;
+    margin-left: 1680px;
+    margin-top: -310px;
 }
